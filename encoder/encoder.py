@@ -34,8 +34,7 @@ header = random.randint(1000,10000)
 header = str(header)
 code = header + code
 
-# Wtiting modified file by creating name_encrypted file
-# file_path = file_path.replace(".", "_encrypted.")
+# Rewriting the file with decrypted text
 if key < 10:
     key = "00" + str(key)
 elif key < 100:
